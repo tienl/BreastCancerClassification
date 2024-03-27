@@ -96,7 +96,7 @@ Using the Keras Preprocessing Image package; images are converted to arrays that
 ![Non Cancerous Images](https://github.com/GirijaJoshi/BreastCancerClassification/blob/master/Images/non_cancer_images.png)
 
 ### Limitations: ###
-* Memory: To rin the model the server needs 10 GB of free memory 
+* Memory: To run the model the server needs 10 GB of free memory 
 * Time: Model processing with under sampled data runs for 6 + hours on a personal computer
 
 ## Dashboard Blueprint ## 
@@ -137,11 +137,6 @@ Convolutional Neural Network and Image processing of 136,756 mammogram images we
 
 * Risk Factor Dataset can be changed for a more general dataset that includes women and men. It would be ideal to conduct an analysis of a longitudinal data set to closely observe the transformation of some of the features and how they may lead to cancer diagnosis. 
 
-* CNN Machine Learning Model should have a greater positive predictive accuracy score. Because this has a medical application, we should aspite to have above 98% 99% accuracy for TRUE POTIVES. Model optimization can be done through better feature selection, increasing training and testing images, and/or adding more hidden layers to the model architecture. We plan to keep improving the model. 
+* CNN Machine Learning Model can produce better predictive accuracy score.  Since this is in the field of medicine, achieving high positive result accuracy (>98%) is necessary to avoid negative experiences with the product.  Model optimization can be further enhanced through additional feature selection, increased training duration and volume, and adding more hidden layers to the model.  Improving the model would be the first order of business. 
 
-* Web app can be used as a screening tool at medical center to direct patients to specialist. We need to adapt the code to allow users to upload mammograms.
-
-## Communication and More Information ##
-
-We are currently communicating through a Slack channel (name: #finalproject); and have created a Google Drive Folder to store presentation templetes and meeting minutes.
-[link](https://drive.google.com/drive/folders/1LaX9KnGGwv2Lf1l9v83TqIOjVzP_935L)
+* Web app can be used as a screening tool at medical center to allow patients to self-serve screening.  As necessary, they can then be redirected to specialist.  It is worth exploring how to enable user to upload mammograms.  
